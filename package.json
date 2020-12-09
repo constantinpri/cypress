@@ -4,6 +4,7 @@
   "description": "cypress practice",
   "main": "index.js",
   "scripts": {
+    "cypress:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/constantinpri/cypress2/issues"
   },
-  "homepage": "https://github.com/constantinpri/cypress2#readme"
+  "homepage": "https://github.com/constantinpri/cypress2#readme",
+  "devDependencies": {
+    "cypress": "^6.0.1"
+  }
 }
